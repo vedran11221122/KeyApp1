@@ -11,12 +11,11 @@
 		0462802C2AC89B3400B6E5B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0462802B2AC89B3400B6E5B7 /* Assets.xcassets */; };
 		0462802F2AC89B3400B6E5B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0462802E2AC89B3400B6E5B7 /* Preview Assets.xcassets */; };
 		0462803C2AC89C4600B6E5B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046280352AC89C4500B6E5B7 /* ContentView.swift */; };
-		0462803E2AC89C4600B6E5B7 /* KeyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046280372AC89C4600B6E5B7 /* KeyListView.swift */; };
-		0462803F2AC89C4600B6E5B7 /* KeyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046280382AC89C4600B6E5B7 /* KeyDetailView.swift */; };
-		046280402AC89C4600B6E5B7 /* KeyIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046280392AC89C4600B6E5B7 /* KeyIdentifier.swift */; };
-		046280412AC89C4600B6E5B7 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462803A2AC89C4600B6E5B7 /* KeyManager.swift */; };
 		046280422AC89C4600B6E5B7 /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462803B2AC89C4600B6E5B7 /* KeyModel.swift */; };
-		046280442AC89C8000B6E5B7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046280432AC89C8000B6E5B7 /* CameraView.swift */; };
+		046280462AC8A4DA00B6E5B7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046280452AC8A4DA00B6E5B7 /* ImagePicker.swift */; };
+		046280482AC8A69A00B6E5B7 /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046280472AC8A69A00B6E5B7 /* NewEntryView.swift */; };
+		0462804A2AC8A6BA00B6E5B7 /* IdentifyKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046280492AC8A6BA00B6E5B7 /* IdentifyKeyView.swift */; };
+		0462804C2AC8A6EC00B6E5B7 /* KeyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462804B2AC8A6EC00B6E5B7 /* KeyStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +24,11 @@
 		0462802B2AC89B3400B6E5B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0462802E2AC89B3400B6E5B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		046280352AC89C4500B6E5B7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../Key Identifier App/Key Identifier App/ContentView.swift"; sourceTree = "<group>"; };
-		046280372AC89C4600B6E5B7 /* KeyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyListView.swift; sourceTree = "<group>"; };
-		046280382AC89C4600B6E5B7 /* KeyDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDetailView.swift; sourceTree = "<group>"; };
-		046280392AC89C4600B6E5B7 /* KeyIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyIdentifier.swift; sourceTree = "<group>"; };
-		0462803A2AC89C4600B6E5B7 /* KeyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
 		0462803B2AC89C4600B6E5B7 /* KeyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyModel.swift; sourceTree = "<group>"; };
-		046280432AC89C8000B6E5B7 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		046280452AC8A4DA00B6E5B7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		046280472AC8A69A00B6E5B7 /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
+		046280492AC8A6BA00B6E5B7 /* IdentifyKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyKeyView.swift; sourceTree = "<group>"; };
+		0462804B2AC8A6EC00B6E5B7 /* KeyStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,14 +63,13 @@
 			children = (
 				046280272AC89B3000B6E5B7 /* KeyApp1App.swift */,
 				046280352AC89C4500B6E5B7 /* ContentView.swift */,
-				0462803A2AC89C4600B6E5B7 /* KeyManager.swift */,
+				046280472AC8A69A00B6E5B7 /* NewEntryView.swift */,
+				046280492AC8A6BA00B6E5B7 /* IdentifyKeyView.swift */,
 				0462803B2AC89C4600B6E5B7 /* KeyModel.swift */,
-				046280372AC89C4600B6E5B7 /* KeyListView.swift */,
-				046280382AC89C4600B6E5B7 /* KeyDetailView.swift */,
-				046280432AC89C8000B6E5B7 /* CameraView.swift */,
-				046280392AC89C4600B6E5B7 /* KeyIdentifier.swift */,
+				0462804B2AC8A6EC00B6E5B7 /* KeyStorage.swift */,
 				0462802B2AC89B3400B6E5B7 /* Assets.xcassets */,
 				0462802D2AC89B3400B6E5B7 /* Preview Content */,
+				046280452AC8A4DA00B6E5B7 /* ImagePicker.swift */,
 			);
 			path = KeyApp1;
 			sourceTree = "<group>";
@@ -157,12 +154,11 @@
 			files = (
 				046280282AC89B3000B6E5B7 /* KeyApp1App.swift in Sources */,
 				0462803C2AC89C4600B6E5B7 /* ContentView.swift in Sources */,
-				0462803F2AC89C4600B6E5B7 /* KeyDetailView.swift in Sources */,
-				0462803E2AC89C4600B6E5B7 /* KeyListView.swift in Sources */,
+				046280462AC8A4DA00B6E5B7 /* ImagePicker.swift in Sources */,
+				0462804A2AC8A6BA00B6E5B7 /* IdentifyKeyView.swift in Sources */,
+				0462804C2AC8A6EC00B6E5B7 /* KeyStorage.swift in Sources */,
+				046280482AC8A69A00B6E5B7 /* NewEntryView.swift in Sources */,
 				046280422AC89C4600B6E5B7 /* KeyModel.swift in Sources */,
-				046280402AC89C4600B6E5B7 /* KeyIdentifier.swift in Sources */,
-				046280412AC89C4600B6E5B7 /* KeyManager.swift in Sources */,
-				046280442AC89C8000B6E5B7 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
